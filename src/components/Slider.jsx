@@ -63,6 +63,8 @@ export default function Slider() {
         <Image
           src={slider1}
           alt="NY HJEMMESIDE"
+          width={800}
+          height={600}
           className={`object-cover w-full h-[300px] sm:h-auto rounded-tl-2xl ${active === 0 ? "" : "opacity-65"}`}
         />
         {active === 0 && <div className="flex items-start justify-between">
@@ -99,6 +101,8 @@ export default function Slider() {
         <Image
           src={slider2}
           alt="3D ANIMATION"
+          width={800}
+          height={600}
           className={`object-cover w-full h-[300px] sm:h-auto rounded-bl-2xl ${active === 1 ? "" : "opacity-65"}`}
         />
         <div role="content" className="mt-4">

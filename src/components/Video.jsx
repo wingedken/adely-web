@@ -53,6 +53,8 @@ export default function VideoReel() {
       <p className="font-suisseWorks font-medium text-[11px] tracking-wider text-black text-right mb-1.5">3D Animation / Storytelling</p>
       <Image
         src={room}
+        width={1920}
+        height={1080}
         className="invisible appearance-none opacity-0 w-full sm:h-auto object-cover"
         loading="lazy"
         alt="3D Animation / Storytelling"

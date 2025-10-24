@@ -29,6 +29,8 @@ export default function Hero({ scrollInstance }) {
     <Image
       src={mainimg}
       alt="hero main image"
+      width={1920}
+      height={1080}
       className="h-full w-full bg-black object-cover"
       style={{ transition: "0.2s ease-out", filter: isScrolled > 0 && `brightness(${1 - isScrolled / 1100})` }}
     />

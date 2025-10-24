@@ -146,6 +146,8 @@ export default function Home() {
                   <Image
                     src={zine}
                     alt="zine"
+                    width={525}
+                    height={223}
                     className="w-[525px] h-[223px] object-cover relative z-10 rounded-tr-2xl"
                   />
                   <p className="font-suisseWorks font-normal text-[11px] tracking-widest text-white mt-1.5">Grafisk Illustration</p>
@@ -181,6 +183,8 @@ export default function Home() {
             <Image
               src={girls}
               alt="girls coffe"
+              width={600}
+              height={400}
               className="object-cover w-full h-full rounded-tl-2xl"
             />
           </Animate>
@@ -193,6 +197,8 @@ export default function Home() {
           >
             <Image
               src={scaled}
+              width={250}
+              height={250}
               className="object-cover h-full w-full shadow-custom"
               alt="scaled"
             />
@@ -208,6 +214,8 @@ export default function Home() {
       <section className="relative mt-32 py-20 md:py-36 blusih-radial">
         <Image
           src={bgSec3}
+          width={1200}
+          height={800}
           className="h-full w-full absolute top-0 left-0 object-cover opacity-[2.4%] mix-blend-luminosity"
           alt="background img"
         />
